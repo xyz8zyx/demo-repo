@@ -18,6 +18,7 @@ public class MouseHoverAction {
 		
 		Actions action = new Actions(d);
 		action.moveToElement(electronics).moveToElement(cellPhones).build().perform();
+		System.out.println();
 
 	}
 
